@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.heading {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  border-bottom: 1px solid gray;
+}
+
 /*------------------------------------------*/
 /*----------ハンバーガーアイコン------------*/
 /*------------------------------------------*/
@@ -68,6 +75,7 @@
 /*----------spメニュー----------*/
 /*------------------------------*/
 #sp-menu {
+  font-family: 'Caveat', cursive;
   position: fixed;
   top: 0;
   left: 0;
@@ -79,9 +87,19 @@
   z-index: 9;
 }
 
+h2 {
+  margin: 20px;
+}
+
+#sp-menu ul {
+  margin-left: 100px;
+}
+
 #sp-menu li {
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 60px;
+  list-style: none;
 }
 #sp-menu a {
   color: #fff;
