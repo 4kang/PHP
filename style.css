@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  /*liタグのの点マークを消す*/
+  list-style: none;
+}
+
+header {
+  height: 65px;
+  /*下線*/
+  border-bottom: 1px solid #dddddd;
+}
+
+.header-left {
+  float: left;
+  /*"border領域"の内側の余白を設定する*/
+  padding: 10px 60px;
+  color: #ED7000;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #808080;
+}
+
+.header-right li {
+  float: left;
+  /*"border領域"の内側の余白を設定する*/
+  padding: 20px 30px;
+  border-left: 1px solid #dddddd;
+}
+
+.selected {
+color: #ED7000;
+}
