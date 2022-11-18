@@ -5,7 +5,7 @@
   <title>お問い合わせフォーム</title>
   <link rel="stylesheet" href="style.css">
  </head>
- 
+
  <header>
   <div class="header-left">DMM WEBCAMP</div>
    <div class="header-right">
@@ -16,22 +16,23 @@
     </ul>
    </div>
  </header>
- 
+
  <body>
   <div class="main">
    <div class="contact-form">
     <div class="form-title">お問い合わせ</div>
-    
+
     <!--フォーム作成のためformタグで囲う-->
     <form method="post" action="sent.php">
      <div class="form-item">名前</div>
      <input type="text" name="name">
      <div class="form-item">内容</div>
      <textarea name="body"></textarea>
+     <input type="submit" value="送信"/>
     </form>
    </div>
   </div>
-  
+
   <footer>
    <div class="footer-left">
     <ul>
@@ -41,6 +42,6 @@
     </ul>
    </div>
   </footer>
-  
+
  </body>
 </html>
